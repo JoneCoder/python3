@@ -23,6 +23,7 @@ while i < 10:
     i += 1
     # i = i + 1
 
+
 terminateProgram = False
 while not terminateProgram:
     number1 = int(input("Please enter a number: "))
