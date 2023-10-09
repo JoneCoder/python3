@@ -20,10 +20,10 @@ def sub(num1, num2):
     return num1 - num2
 
 
-terminateProgram = False
+terminateProgram = False  # data type boolean
 while not terminateProgram:
-    number1 = int(input("Please enter a number: "))
-    number2 = int(input("Please enter another: "))
+    number1 = float(input("Please enter a number: "))
+    number2 = float(input("Please enter another: "))
 
     while True:
         operation = input("Please enter add/sub or quit to exit: ")
