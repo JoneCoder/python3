@@ -13,6 +13,7 @@ def findFib(n):
 
     return next_fib
 
+
 def listFib(n):
     fib_list = [1, 1]
     if n <= 2:
@@ -31,3 +32,6 @@ def listFib(n):
 
     return fib_list
 
+
+def add(a, b):
+    return a + b
